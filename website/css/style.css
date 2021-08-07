@@ -95,6 +95,7 @@ body{
 	font-size: 2rem;
 	width: 100%;
 	justify-content: space-between;
+    min-width: 300px;
 }
 .sections img{
 	border-radius: 200px;
@@ -114,6 +115,7 @@ body{
   display: flex;
   position: relative;
   flex-direction: column;
+  min-width: 300px;
   width: 21%;
   padding: auto;
   border-radius: 16px;
@@ -126,6 +128,7 @@ body{
     margin: 0 auto;
     display: flex;
     max-width: 1170px;
+    min-width: 300px;
     width: 100%;
 		font-family: 'Merriweather', serif;
 		font-size: 1.0rem;
@@ -185,7 +188,7 @@ body{
 }
 }
 
-@media (max-width: 769px){
+@media (min-width: 361px) and (max-width: 769px){
 .navbar-logo img{
 	width: 40%;
 }
@@ -195,5 +198,20 @@ body{
 }
 .sections{
 	font-size: 1.2rem;
+}
+}
+@media (max-width: 360px){
+.navbar-logo img{
+	width: 40%;
+}
+.navbar-heading{
+	font-size: 1.0rem;
+	margin-left: -5rem;
+}
+.sections{
+	font-size: 0.8rem;
+}
+.sections{
+	min-width: 100px;
 }
 }
