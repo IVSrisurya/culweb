@@ -55,35 +55,40 @@ body{
 	height: .5rem;
 	background-color: rgb(200, 10, 10);
 	/*margin-top: -5rem;*/
-	margin-top: 1%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .seperation2{
 	width: 100%;
 	height: .5rem;
 	background-color: rgb(170, 10, 10);
 	/*margin-top: -5rem;*/
-	margin-top: 1%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .seperation3{
 	width: 100%;
 	height: .5rem;
 	background-color: rgb(110, 10, 10);
 	/*margin-top: -5rem;*/
-	margin-top: 1%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .seperation4{
 	width: 100%;
 	height: .5rem;
 	background-color: rgb(140, 10, 10);
 	/*margin-top: -5rem;*/
-	margin-top: 1%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .seperation5{
 	width: 100%;
 	height: .5rem;
 	background-color: rgb(140, 10, 10);
 	/*margin-top: -5rem;*/
-	margin-top: 1%;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .sections{
 	display: flex;
@@ -95,7 +100,19 @@ body{
 	font-size: 2rem;
 	width: 100%;
 	justify-content: space-between;
-    min-width: 300px;
+  min-width: 300px;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  text-align: center;
+}
+.commonname:hover .image {
+  opacity: 0.3;
+}
+
+.commonname:hover .middle {
+  opacity: 1;
 }
 .sections img{
 	border-radius: 200px;
@@ -103,6 +120,8 @@ body{
 	height: 80%;
 	padding-top: 3px;
 	padding-bottom: 3px;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 .sections a{	
 	border-radius: 200px;
@@ -121,7 +140,6 @@ body{
   border-radius: 16px;
   border-color: black;
   margin-top: 60px;
-
 }
 .container {
     position: relative;
@@ -176,8 +194,10 @@ body{
 .commonname{
 	margin-top: 55px;
 }
+ h1{
+	font-size: 3.3rem;
 }
-
+}
 @media (min-width: 770px) and (max-width: 989px){
 .navbar-logo img{
 	width: 45%;
@@ -192,15 +212,17 @@ body{
 .commonname{
 	margin-top: 50px;
 }
+ h1{
+	font-size: 3.1rem;
 }
-
-@media (min-width: 361px) and (max-width: 769px){
+}
+@media (min-width: 488px) and (max-width: 769px){
 .navbar-logo img{
 	width: 40%;
 }
 .navbar-heading{
-	font-size: 1.0rem;
-	margin-left: -5rem;
+	font-size: 1.8rem;
+	margin-left: -7rem;
 }
 .sections{
 	font-size: 1.2rem;
@@ -208,22 +230,54 @@ body{
 .commonname{
 	margin-top: 40px;
 }
+ h1{
+	font-size: 2.8rem;
 }
-@media (max-width: 360px){
-.navbar-logo img{
-	width: 40%;
+}
+@media (max-width: 487px){
+.navbar-logo{
+	width: 0%;
 }
 .navbar-heading{
 	font-size: 1.0rem;
-	margin-left: -5rem;
+	margin-left: 0;
+	float: right;
 }
 .sections{
-	font-size: 0.8rem;
-}
-.sections{
+	font-size: 1.8rem;
 	min-width: 100px;
+}
+.sections a{
+	border-radius: 200px;
+	width: 100%;
+	height: 80%;
+	margin-top: 9px;
+	margin-bottom: 7px;
+}
+.sections img{
+	border-radius: 200px;
+	width: 100%;
+	height: 80%;
+	margin-top: 9px;
+	margin-bottom: 7px;
+}
+.sections p{
+	padding: auto;
 }
 .commonname{
 	margin-top: 30px;
+  min-width: 280px;
+  width: 19%;
+  margin: auto;
+  padding: auto;
+}
+ h1{
+	font-size: 2.5rem;
+}
+#hamburger .line{
+	width: 2rem;
+	margin-bottom: 0.3rem;
+	margin-top: 0.3rem;
+
 }
 }
