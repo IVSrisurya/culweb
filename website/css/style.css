@@ -243,6 +243,9 @@ body{
 	margin-left: 0;
 	float: right;
 }
+.navlist{
+	font-size: 1rem;
+}
 .sections{
 	font-size: 1.8rem;
 	min-width: 100px;
@@ -278,6 +281,8 @@ body{
 	width: 2rem;
 	margin-bottom: 0.3rem;
 	margin-top: 0.3rem;
-
+}
+.middle{
+opacity: 1;
 }
 }
