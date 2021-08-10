@@ -1,0 +1,500 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+  background-attachment: fixed;
+
+}
+html{
+	padding: 50px;
+	background-image: url('../img/background_1.jpg');
+}
+body{
+	background-image: url('../img/background_1.jpg');
+
+}
+.sub_1{
+	text-align: center;
+  	width: 100%;
+  	align-self: center;
+  	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+h1{
+	text-align: center;
+	align-self: center;
+	font-size: 3em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+}
+.amma{
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  min-width: 400px;
+  padding: 10px;
+  border-radius: 16px;
+  border-color: black;
+  box-shadow: 0px 0 0px #FFFAF0;
+  margin-top: 60px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 10px;
+}
+.abt{
+	padding-top: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-width: 30%;
+}
+.surya, .spandana, .Priya ,.Sreehari, .principal, .director{
+	display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 30%;
+  min-width: 300px;
+  padding: 10px;
+  border-radius: 16px;
+  border-color: black;
+  box-shadow: 0px 0 0px #FFFAF0;
+  margin-top: 60px;
+  text-align: center;
+  align-items: center;
+}
+@media (min-width: 1200px){
+.surya{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.spandana{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Priya{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari{
+	width: 40%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	float: left;
+  	margin: auto;
+  	
+}
+.Sreehari img{
+	height: 220px;
+	
+}
+.principal{
+	width: 42%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	float: left;
+  	margin: auto;
+}
+.director{
+	width: 42%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	text-shadow: 1px 1px 1px #222;
+  	float: left;
+  	margin: auto;
+}
+.amma{
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  min-width: 400px;
+  padding: 10px;
+  border-radius: 16px;
+  border-color: black;
+  box-shadow: 0px 0 0px #FFFAF0;
+  margin-top: 60px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.img1{
+	 padding-top: 20px;
+	 width: 62%; 
+	 height: 25vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 70px;
+}
+.img1 img{
+	padding: 0px;width: 42%; height: 100%;
+	 background-color: #f90680;
+}.img2{
+	padding-top: 20px;
+	 width: 82%; 
+	 height: 36vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 5px;
+}
+.img2 img{
+	padding-top: 20px;width: 41%; height: 100%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199px){
+.surya{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.spandana{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Priya{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.principal{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.director{
+	width: 32%;
+	text-align: center;
+	align-self: center;
+	font-size: 1.5em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+
+}
+.amma{
+  flex-direction: column;
+  width: 100%;
+  height: 400px;
+  min-width: 400px;
+  padding: 10px;
+  border-radius: 16px;
+  border-color: black;
+  box-shadow: 0px 0 0px #FFFAF0;
+  margin-top: 60px;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+.img1{
+	 padding-top: 20px;
+	 width: 62%; 
+	 height: 25vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 70px;
+}
+.img1 img{
+	padding: 0px;width: 42%; height: 100%;
+	 background-color: #f90680;
+}.img2{
+	padding-top: 20px;
+	 width: 82%; 
+	 height: 30vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 5px;
+}
+.img2 img{
+	padding-top: 20px;width: 45%; height: 100%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+.surya{
+	width: 54%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	/*float: left;*/margin: auto;
+  	text-shadow: 1px 1px 1px #222;
+}
+.spandana{
+	width: 54%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	/*float: right;*/margin: auto;
+  	text-shadow: 1px 1px 1px #222;
+  	/*margin-top: 5px;*/
+  	/*padding-top: 20px;*/
+}
+.Priya{
+	width: 54%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	/*float: right;*/margin: auto;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-bottom: 5px;
+  	margin: auto;
+}
+.principal{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.director{
+	width: 44%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.img1{
+	 padding-top: 20px;
+	 width: 62%; 
+	 height: 35vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 70px;
+}
+.img1 img{
+	padding: 0px;width: 42%; height: 100%;
+	 background-color: #f90680;
+}
+.img2{
+	padding-top: 20px;
+	 width: 82%; 
+	 height: 30vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 5px;
+}
+.img2 img{
+	padding-top: 20px;width: 45%; height: 100%;
+}
+}
+@media (max-width: 767px) {
+.surya{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.surya img{
+	width:  35%;
+}
+.spandana{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	/*filter: brightness(2.1200);*/
+  	margin: auto;
+}
+.spandana img{
+	width: 35%;
+}
+.Priya{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.Priya img{
+	width: 35%;
+}
+.Sreehari{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+}
+.Sreehari img{
+	width: 30%;
+}
+.principal{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.director{
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	font-size: 1em;
+	text-shadow: rgb(0,0,1);
+	text-transform: uppercase;
+  	font-weight: bold;
+  	float: left;
+  	text-shadow: 1px 1px 1px #222;
+  	margin: auto;
+}
+.amma img{
+  width: 50%;
+  height: 70%;
+}
+.img1{
+	 padding-top: 20px;
+	 width: 82%; 
+	 height: 20vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 70px;
+}
+.img1 img{
+	padding: 0px;width: 52%; height: 100%;
+	 background-color: #f90680;
+}
+.img2{
+	padding-top: 20px;
+	 width: 82%; 
+	 height: 30vh;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 5px;
+}
+.img2 img{
+	padding-top: 20px;width: 45%; height: 100%;
+}
+}
