@@ -8,7 +8,7 @@
 	}
 	function contain1(){
 		document.getElementById("con1").style.display="flex"
-		document.getElementById("c1").style.backgroundColor="Khaki"
+		document.getElementById("c1").style.backgroundColor="LavenderBlush"
 		document.getElementById("c2").style.backgroundColor="LavenderBlush"
 		document.getElementById("c3").style.backgroundColor="LavenderBlush"
 		document.getElementById("c4").style.backgroundColor="LavenderBlush"
@@ -22,7 +22,7 @@
 		document.getElementById("con1").style.display="none"
 		document.getElementById("con2").style.display="flex"
 		document.getElementById("c1").style.backgroundColor="LavenderBlush"
-		document.getElementById("c2").style.backgroundColor="Khaki"
+		document.getElementById("c2").style.backgroundColor="LavenderBlush"
 		document.getElementById("c3").style.backgroundColor="LavenderBlush"
 		document.getElementById("c4").style.backgroundColor="LavenderBlush"
 		document.getElementById("c5").style.backgroundColor="LavenderBlush"
@@ -36,7 +36,7 @@
 		document.getElementById("con3").style.display="flex"
 		document.getElementById("c1").style.backgroundColor="LavenderBlush"
 		document.getElementById("c2").style.backgroundColor="LavenderBlush"
-		document.getElementById("c3").style.backgroundColor="Khaki"
+		document.getElementById("c3").style.backgroundColor="LavenderBlush"
 		document.getElementById("c4").style.backgroundColor="LavenderBlush"
 		document.getElementById("c5").style.backgroundColor="LavenderBlush"
 		document.getElementById("con4").style.display="none"
@@ -50,7 +50,7 @@
 		document.getElementById("c1").style.backgroundColor="LavenderBlush"
 		document.getElementById("c2").style.backgroundColor="LavenderBlush"
 		document.getElementById("c3").style.backgroundColor="LavenderBlush"
-		document.getElementById("c4").style.backgroundColor="Khaki"
+		document.getElementById("c4").style.backgroundColor="LavenderBlush"
 		document.getElementById("c5").style.backgroundColor="LavenderBlush"
 		document.getElementById("con5").style.display="none"
 	}
@@ -64,7 +64,7 @@
 		document.getElementById("c2").style.backgroundColor="LavenderBlush"
 		document.getElementById("c3").style.backgroundColor="LavenderBlush"
 		document.getElementById("c4").style.backgroundColor="LavenderBlush"
-		document.getElementById("c5").style.backgroundColor="Khaki"
+		document.getElementById("c5").style.backgroundColor="LavenderBlush"
 	}
 	function myFunction1() {
 	  var dots = document.getElementById("dots1");
