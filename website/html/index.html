@@ -9,6 +9,9 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
 </head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
 <nav class="navbar">
 	<div class="navbar-logo">
 		<a href="#" style="text-decoration:none;"><img src="../img/omkara.jpeg"></a> 
@@ -17,18 +20,20 @@
 		<a href="#" style="text-decoration:none;color: black;" id="navheading">Prachin Bharath</a> 
 	</div>
 	<div class="navbar-list" id = "hamburger">
-		<button class="open_btn" onmouseenter ="openmenu()">
+		<button class="open_btn" onclick ="openmenu()">
 		<div class="line"></div>
 		<div class="line"></div>
 		<div class="line"></div>
 		</button>
 	</div>
-	<div id="navlist" onmouseleave="closemenu()" style="text-decoration:none;">
-		<!-- <button class="clos_btn" onclick="closemenu()" style="width: 80%">Close &times;</button> -->
+	<div id="navlist"  style="text-decoration:none;" ng-app="sel" ng-controller="myctrl">
+		<button class="clos_btn" onclick="closemenu()">&times;</button>
 		<a href="index.html" style="text-decoration: none;"> <div style="padding-right: 3px;color: black;">Home |</div></a>
 		<a href="about.html" style="text-decoration: none;"><div style="padding-right: 3px;text-decoration: none;color: black;">About Us |</div></a>
 		<a href="comments.html" style="text-decoration: none;"><div style="padding-right: 3px;text-decoration: none;color: black;">Contact Us </div></a>
+		<!-- <select ng-model="selectfrom" ng-options="x for x in names"></select> -->
 	</div>
+
 </nav>
 <div class='slider' id="slider">
                     <div class='slide1'></div>
@@ -53,8 +58,13 @@
             <!-- <span style=" font-size: 1.3em;">Disclaimer :</span> -->
             This website is made as a project of Cultural Education II. The content added here is primitive. We welcome your constructive Feedback.
           </marquee>
+
+ <div>
+ 	
+ </div>
+ 
 <div class="seperation1">
-	
+
 </div>
 
 <body>
@@ -63,19 +73,19 @@
 	<div class="container" id="con1">
 	<ul class="sections">
 		<li class="section2 commonname" >
-			<a href="#" style="text-decoration:none">
+			<a href="description.html" style="text-decoration:none">
 			<img src="../img/Description.jpg" >
 			 <p class="middle"> Description of Bharath</p>
 			</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="education.html" style="text-decoration:none">
 			<img src="../img/Education.jpg">
-			<p class="middle">Education system</p>
+			<p class="middle">Ancient Education system</p>
 		</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="civilisation.html" style="text-decoration:none">
 			<img src="../img/civilisation.jpg">
 			 <p class="middle">Ancient Civilsations</p>
 			</a>
@@ -91,19 +101,19 @@
 <div class="container" id="con2" >
 	 <ul class="sections">
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="Introduction.html" style="text-decoration:none">
 			<img src="../img/vedas1.jpg">
 			<p class="middle">Introduction</p>
 		</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="chaturvedas.html" style="text-decoration:none">
 			<img src="../img/vedas.png">
 			 <p class="middle">Chatur Vedas</p>
 			</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="Vedangas.html" style="text-decoration:none">
 			<img src="../img/Vedangas.jpg">
 			 <p class="middle">Vedangas</p>
 			</a>
@@ -119,49 +129,49 @@
 <div class="container" id="con3">
 	 <ul class="sections">
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="sages.html" style="text-decoration:none">
 			<img src="../img/sages.jpg">
 			<p class="middle">Glorious sages</p>
 		</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="Shankaracharya.html" style="text-decoration:none">
 			<img src="../img/shankaracharyahome.jpg">
 			<p class="middle">Shankaracharya</p>
 		</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="Ramana.html" style="text-decoration:none">
 			<img src="../img/Ramanamaharshi.jpg">
 			<p class="middle">Ramana Maharshi</p>
 		</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="acarya.html" style="text-decoration:none">
 			<img src="../img/acarya.jpg">
 			 <p class="middle">Glorious Acharyas</p>
 			</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="kings.html" style="text-decoration:none">
 			<img src="../img/kings.jpg">
 			 <p class="middle">Glorious kings</p>
 			</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="scientists.html" style="text-decoration:none">
 			<img src="../img/scientists.jpg">
 			 <p class="middle">Glorious Scientists</p>
 			</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="poets.html" style="text-decoration:none">
 			<img src="../img/poets.jpg">
 			 <p class="middle">Glorious Poets</p>
 			</a>
 		</li>
 		<li class="section2 commonname">
-			<a href="#" style="text-decoration:none">
+			<a href="warriors.html" style="text-decoration:none">
 			<img src="../img/warriors.jpg">
 			 <p class="middle">Glorious Warriors</p>
 			</a>
@@ -232,8 +242,13 @@
 	</ul>
 </div>
 </div>
+<div class="seperation6">
+	
+</div>
+<div ></div>
 <script src="../js/jquery-3.6.0.min.js"></script>
 <script src="../js/script.js">
 </script>
+
 </body>
 </html>

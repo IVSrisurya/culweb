@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Glorious Achharyas</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet"  href="../css/style.css">
+    <link rel="stylesheet"  href="../css/description.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+    <nav class="navbar">
+    <div class="navbar-logo">
+        <a href="#" style="text-decoration:none;"><img src="../img/omkara.jpeg"></a> 
+    </div>
+    <div class="navbar-heading">
+        <a href="#" style="text-decoration:none;color: black;" id="navheading">Glorious Acharyas</a> 
+    </div>
+    <div class="navbar-list" id = "hamburger">
+        <button class="open_btn" onclick ="openmenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        </button>
+    </div>
+    <div id="navlist"  style="text-decoration:none;" ng-app="sel" ng-controller="myctrl">
+        <button class="clos_btn" onclick="closemenu()">&times;</button>
+        <a href="index.html" style="text-decoration: none;"> <div style="padding-right: 3px;color: black;">Home |</div></a>
+        <a href="about.html" style="text-decoration: none;"><div style="padding-right: 3px;text-decoration: none;color: black;">About Us |</div></a>
+        <a href="comments.html" style="text-decoration: none;"><div style="padding-right: 3px;text-decoration: none;color: black;">Contact Us </div></a>
+        <!-- <select ng-model="selectfrom" ng-options="x for x in names"></select> -->
+    </div>
+
+</nav>
+<marquee style="font-size:1.15em; color: blue;">
+            <!-- <span style=" font-size: 1.3em;">Disclaimer :</span> -->
+            This website is made as a project of Cultural Education II. The content added here is primitive. We welcome your constructive Feedback.
+          </marquee>
+
+    <body >
+    	
+    			<main>
+                    <section class="card-list">
+    				<section class="Vyasa"> 
+    					<div >
+    						<a href="Dronacharya.html"><img src="../img/Dronacharya.jpg" width="70%" height="300px" >
+    							<div class="m">
+    								Dronacharya
+    							</div>
+    						</a>
+    						
+    					</div>
+    				</section>
+    				<section class="Vyasa">
+    					<div>
+    						<a href="Krupacharya.html"><img src="../img/Krupacharya.jpg" width="70%" height="300px">
+    							<div class="m">
+    								Krupacharya
+    							</div>
+
+    						</a>
+    					</div>
+    					
+    				</section>
+    				
+    				<section class="Vyasa">
+    					<div>
+    						<a href="Sukracharya.html"><img src="../img/Sukracharya.jpg" width="70%" height="300px">
+    							<div class="m">
+    							Sukracharya	
+    							</div>
+    						</a>
+    					</div>
+    					
+    				</section>
+    				<!-- <section class="Vyasa">
+    					<div>
+    						<a href="Parashurama.html"><img src="../img/Parashurama.jpg" width="70%" height="300px">
+    							<div class="m">
+    								Parashurama
+    							</div>
+    						</a>
+    					</div>
+    					<br>
+    				</section> -->
+                    </section>
+    			</main>
+    	
+    </body>
+</html>
