@@ -294,7 +294,7 @@ body{
 	margin-left: auto;
 }
 .seperation6{
-	width: 50%;
+	width: 100%;
 	height: .2rem;
 	background-color: rgb(200, 10, 10);
 	/*margin-top: -5rem;*/
@@ -398,7 +398,14 @@ body{
 	border-color: black;
 	border-style: solid;
 }
-
+.img1{
+	 /*padding-top: 10px;*/
+	 /*margin-top: 5%;*/
+	 border-radius: 120px;
+	 text-align: center;
+	 font-size: 2rem;
+	font-family: 'Merriweather', serif;
+}
 @media (min-width: 1200px){
 .navbar-logo img{
 	width: 55%;
