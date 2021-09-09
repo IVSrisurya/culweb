@@ -243,44 +243,65 @@ body{
 
 }
 .seperation1{
-	width: 100%;
+	width: 50%;
 	height: .2rem;
 	background-color: rgb(200, 10, 10);
 	/*margin-top: -5rem;*/
 	margin-top: 5%;
 	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
+	
 }
 .seperation2{
-	width: 100%;
+	width: 50%;
 	height: .2rem;
 	background-color: rgb(200, 10, 10);
 	/*margin-top: -5rem;*/
 	margin-top: 2%;
 	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .seperation3{
-	width: 100%;
+	width: 50%;
 	height: .2rem;
 	background-color: rgb(200, 10, 10);
 	/*margin-top: -5rem;*/
 	margin-top: 2%;
 	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .seperation4{
-	width: 100%;
+	width: 50%;
 	height: .2rem;
 	background-color: rgb(200, 10, 10);
 	/*margin-top: -5rem;*/
 	margin-top: 2%;
 	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .seperation5{
-	width: 100%;
+	width: 50%;
 	height: .2rem;
 	background-color: rgb(200, 10, 10);
 	/*margin-top: -5rem;*/
 	margin-top: 2%;
 	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.seperation6{
+	width: 50%;
+	height: .2rem;
+	background-color: rgb(200, 10, 10);
+	/*margin-top: -5rem;*/
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-right: auto;
+	margin-left: auto;
 }
 .sections{
 	display: flex;
@@ -319,13 +340,15 @@ body{
   opacity: 1;
 }
 .sections img{
-	border-radius: 200px;
-	width: 100%;
+	border-radius: 50%;
+	width: 80%;
 	height: 80%;
 	padding-top: 3px;
 	padding-bottom: 3px;
   transition: .5s ease;
   backface-visibility: hidden;
+  object-fit: cover;
+  /*object-position: center;*/
 }
 .sections a{	
 	border-radius: 200px;
@@ -375,6 +398,7 @@ body{
 	border-color: black;
 	border-style: solid;
 }
+
 @media (min-width: 1200px){
 .navbar-logo img{
 	width: 55%;
