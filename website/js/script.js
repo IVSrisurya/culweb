@@ -197,17 +197,23 @@ function myFunction2() {
 	var Glorious = 2*width/1000 
 	var heritage = 2*width/1000
 	var studntsproject = 2*width/1000 
+	var amrlogo = 1.3*width/1000
+	var footecont = 1*width/1000
 	var Historycon = document.getElementById("History");
 	var Vediccon = document.getElementById("Vedic");
 	var Gloriouscon = document.getElementById("Glorious");
 	var Heritagecon = document.getElementById("heritage");
 	var stuojectcon = document.getElementById("studntsproject");
+	var logoamrita = document.getElementById("logoamr")
+	var footercont = document.getElementById("footcont")
 	// document.getElementById("History").style.fontSize = History;
 	Historycon.style.fontSize = History + "rem";
 	Vediccon.style.fontSize = Vedic + "rem";
 	Gloriouscon.style.fontSize = Glorious + "rem";
 	Heritagecon.style.fontSize = heritage + "rem";
 	stuojectcon.style.fontSize = studntsproject + "rem";
+	logoamrita.style.fontSize = amrlogo + "rem";
+	footercont.style.fontSize = footecont + "rem";
 
 	var sliderw = 200*History+"px";
 	var sliderh = 200*sliderw + "px"
@@ -223,17 +229,23 @@ function myFunction2() {
 	var Glorious = 2*width/1000 
 	var heritage = 2*width/1000
 	var studntsproject = 2*width/1000 
+	var amrlogo = 1.3*width/1000
+	var footecont = 1*width/1000
 	var Historycon = document.getElementById("History");
 	var Vediccon = document.getElementById("Vedic");
 	var Gloriouscon = document.getElementById("Glorious");
 	var Heritagecon = document.getElementById("heritage");
 	var stuojectcon = document.getElementById("studntsproject");
+	var logoamrita = document.getElementById("logoamr")
+	var footercont = document.getElementById("footcont")
 	// document.getElementById("History").style.fontSize = History;
 	Historycon.style.fontSize = History + "rem";
 	Vediccon.style.fontSize = Vedic + "rem";
 	Gloriouscon.style.fontSize = Glorious + "rem";
 	Heritagecon.style.fontSize = heritage + "rem";
 	stuojectcon.style.fontSize = studntsproject + "rem";
+	logoamrita.style.fontSize = amrlogo + "rem";
+	footercont.style.fontSize = footecont + "rem";
 
 	var sliderw = 200*History+"px";
 	var sliderh = 200*sliderw + "px"
