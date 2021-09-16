@@ -1,0 +1,94 @@
+.headerinfo{
+	width: 80%;
+	margin: auto;
+	padding-top: 30px;
+	font-family:'Merriweather', serif;
+	font-size: 1.1rem;	
+	word-spacing: 0.5rem;
+	writing-mode: horizontal-tb;
+}
+.headerinfo h1{
+	text-align: left;
+	font-size: 1.7rem;
+	text-decoration: underline;
+
+}
+#more1{
+	display: none;
+}
+#more2{
+	display: none;
+}
+#more3{
+	display: none;
+}
+#more4{
+	display: none;
+}
+#more5{
+	display: none;
+}
+#more6{
+	display: none;
+}
+#more7
+{
+	display: none;
+}
+#more8{
+  display: none;
+}
+.card-list{
+  display: flex;
+  flex-wrap: wrap;
+  /*flex-direction: column;*/
+  overflow-x: scroll;
+  /*background-color: #FFF8DC;*/
+  align-items: center;
+  margin: auto;
+  padding-top: 5%;
+}
+.card-list img{
+	border-radius: 400px;
+}
+.card-list a{
+	border-radius: 400px;
+	text-decoration: none;
+	color: black;
+}
+.valmiki, .Vyasa, .Vishwamitra, .Vasistha, .Kasyapa, .Bhrugu,.Athri, .Bharadwaja, .Thiruvallur{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 28%;
+  min-width: 300px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 400px;
+  /*background-color: #4e4e1b;*/
+  border-color: white;
+  box-shadow: -1px 0 1px #FFFAF0;
+  margin-top: 60px;
+  text-align: center;
+  /*margin-bottom: 20px;*/
+}
+.m{
+  text-align: center;
+  margin-bottom: 5px;
+  /*color : white; */
+  /*border-style: solid;*/
+		font-family: 'Merriweather', serif;
+		font-size: 1.7rem;
+  /*border-color: white;*/
+  /*border-radius: 40px;*/
+}
+.valmiki:hover, .Vyasa:hover, .Vishwamitra:hover,.Vasistha:hover,.Kasyapa:hover,.Bhrugu:hover,.Athri:hover,.Bharadwaja:hover,.Thiruvallur:hover{
+  transform: translateY(-3rem);
+  width: 30%;
+  /*height: ;*/
+}
+
+.valmiki:not(:first-child), .Vyasa:not(:first-child), .Vishwamitra:not(:first-child),.Vasistha:not(:first-child),.Kasyapa:not(:first-child),.Bhrugu:not(:first-child),.Athri:not(:first-child),.Bharadwaja:not(:first-child),.Thiruvallur:not(:first-child){
+  margin-left: 10px;
+}
