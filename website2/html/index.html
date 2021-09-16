@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Prachin Barath</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet"  href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<div class="navbar-list" id = "hamburger">
+		<button class="open_btn" onclick ="openmenu()">
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		</button>
+	</div>
+	<div id="navlist"  style="text-decoration:none;" ng-app="sel" ng-controller="myctrl">
+		<button class="clos_btn" onclick="closemenu()">&times;</button>
+		<a href="index.html" style="text-decoration: none;"> <div >Home</div></a>
+		<a href="about.html" style="text-decoration: none;"><div >About Us</div></a>
+		<a href="comments.html" style="text-decoration: none;"><div >Contact Us </div></a>
+		<a href="comments.html" style="text-decoration: none;"><div >Students Corner </div></a>
+		<a href="comments.html" style="text-decoration: none;"><div >Books Review </div></a>
+		<!-- <select ng-model="selectfrom" ng-options="x for x in names"></select> -->
+	</div>
+
+<nav class="navbar">
+	<!-- <div class="navbar-logo">
+		<a href="#" style="text-decoration:none;"><img src="../img/omkara.jpeg"></a> 
+	</div> -->
+	<div class="navbar-heading">
+		<a href="#" style="text-decoration:none;color: black;" id="navheading">Prachin Bharath</a> 
+	</div>
+	
+</nav>
+
+<!-- <div class='slider' id="slider">
+                    <div class='slide1'></div>
+                    <div class='slide2'></div>
+                    <div class='slide3'></div>
+                    <div class='slide4'></div>
+                    <div class='slide5'></div>
+                    <div class='slide6'></div>
+                    <div class='slide7'></div>
+                    <div class='slide8'></div>
+                    <div class='slide9'></div>
+                </div> -->
+<!-- <div class="menu" style="text-decoration:none;">
+		<a href="#History" style="text-decoration:none"> <div style="padding-right: 3px;">History</div></a>
+		<a href="#Vedic" style="text-decoration:none"><div style="padding-right: 3px;">Vedic Literature</div></a>
+		<a href="#Glorious" style="text-decoration:none"><div style="padding-right: 3px;">Glorious Personalities</div></a>
+		<a href="#heritage" style="text-decoration:none"><div style="padding-right: 3px;">Our Heritage</div></a>
+		<a href="#studntsproject" style="text-decoration:none"><div style="padding-right: 3px;">Students Projects</div></a>
+
+</div> -->
+<!-- <marquee style="font-size:1.15em; color: blue;">
+            This website is made as a project of Cultural Education II. The content added here is primitive. We welcome your constructive Feedback.
+          </marquee> -->
+
+ <div>
+ 	
+ </div>
+ 
+<!-- <div class="seperation1">
+
+</div> -->
+
+<body>
+	<div class="seperation4">
+	
+</div>
+	<div class="ee">
+	<div class="aa" id="c1">
+	<h1 id="History" onclick ="contain1()" style="cursor: pointer;">Home</h1><br>
+	<!-- <div class="container" id="con1">
+	<ul class="sections">
+		<li class="section2 commonname" >
+			<a href="description.html" style="text-decoration:none">
+			<img src="../img/Description.jpg" >
+			 <p class="middle"> Description of Bharath</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="education.html" style="text-decoration:none">
+			<img src="../img/Education.jpg">
+			<p class="middle">Ancient Education system</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="civilisation.html" style="text-decoration:none">
+			<img src="../img/civilisation.jpg">
+			 <p class="middle">Ancient Civilsations</p>
+			</a>
+		</li>
+	</ul>
+</div> -->
+</div>
+<!-- <div class="seperation2">
+	
+</div> --><!-- 
+<div class="aa" id="c5">
+<h1 id="studntsproject" onclick ="contain5()" style="cursor: pointer;">Glorious personalities</h1><br></div> -->
+<div class="aa" id="c2">
+		<h1 id="Vedic" onclick ="contain2()" style="cursor: pointer;">About us</h1><br>
+<!-- <div class="container" id="con2" >
+	 <ul class="sections">
+		<li class="section2 commonname">
+			<a href="Introduction.html" style="text-decoration:none">
+			<img src="../img/vedas1.jpg">
+			<p class="middle">Introduction</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="chaturvedas.html" style="text-decoration:none">
+			<img src="../img/vedas.png">
+			 <p class="middle">Chatur Vedas</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="Vedangas.html" style="text-decoration:none">
+			<img src="../img/Vedangas.jpg">
+			 <p class="middle">Vedangas</p>
+			</a>
+		</li>
+	</ul>
+</div> -->
+</div>
+<!-- <div class="seperation3">
+	
+</div> -->
+<div class="aa" id="c3">
+<h1 id="Glorious" onclick ="contain3()" style="cursor: pointer;">Contact Us</h1><br>
+<!-- <div class="container" id="con3">
+	 <ul class="sections">
+		<li class="section2 commonname">
+			<a href="sages.html" style="text-decoration:none">
+			<img src="../img/sages.jpg">
+			<p class="middle">Glorious sages</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="Shankaracharya.html" style="text-decoration:none">
+			<img src="../img/shankaracharyahome.jpg">
+			<p class="middle">Shankaracharya</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="Ramana.html" style="text-decoration:none">
+			<img src="../img/Ramanamaharshi.jpg">
+			<p class="middle">Ramana Maharshi</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="acarya.html" style="text-decoration:none">
+			<img src="../img/acarya.jpg">
+			 <p class="middle">Glorious Acharyas</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="kings.html" style="text-decoration:none">
+			<img src="../img/kings.jpg">
+			 <p class="middle">Glorious kings</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="scientists.html" style="text-decoration:none">
+			<img src="../img/scientists.jpg">
+			 <p class="middle">Glorious Scientists</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="poets.html" style="text-decoration:none">
+			<img src="../img/poets.jpg">
+			 <p class="middle">Glorious Poets</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="warriors.html" style="text-decoration:none">
+			<img src="../img/warriors.jpg">
+			 <p class="middle">Glorious Warriors</p>
+			</a>
+		</li>
+	</ul>
+</div> -->
+</div>
+<!-- <div class="seperation4">
+	
+</div> -->
+<div class="aa" id="c4">
+<h1 id="heritage" onclick ="contain4()" style="cursor: pointer;">Student Corner</h1><br>
+<!-- <div class="container" id="con4">
+	 <ul class="sections">
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none">
+			<img src="../img/ayodhya.jpg">
+			<p class="middle">Temples</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none">
+			<img src="../img/festivals.jpg">
+			 <p class="middle">festivals</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none">
+			<img src="../img/sculptures.jpg">
+			 <p class="middle">Sculptures</p>
+			</a>
+		</li>
+		
+	</ul>
+</div> -->
+</div>
+<!-- <div class="seperation5">
+	
+</div> -->
+<div class="aa" id="c5">
+<h1 id="studntsproject" onclick ="contain5()" style="cursor: pointer;">Book Review</h1><br>
+<!-- <div class="container" id="con5">
+	 <ul class="sections">
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none;height: 100%;">
+			<img src="../img/sem1.png" style="border-color: black;border-style: solid;border-width: 3px;height: 100%;">
+			
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none;height: 100%;">
+			<img src="../img/sem2.png" style="border-color: black;border-style: solid;border-width: 3px;height: 100%;">
+			
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none;height: 100%;">
+			<img src="../img/sem4.png" style="border-color: black;border-style: solid;border-width: 3px;height: 100%;">
+			 
+			</a>
+		</li>
+		<li class="section2 commonname" >
+			<a href="#" style="text-decoration:none; height: 100%;">
+			<img src="../img/sem3.png" style="border-color: black;border-style: solid;border-width: 3px;height: 100%;">
+			 
+			</a>
+		</li>
+	</ul>
+</div> -->
+</div>
+
+</div>
+<div ></div>
+<div class="seperation5">
+	
+</div>
+<div style="width:70%;margin: 10%;padding-top: 2px;padding-left: 55px;">
+<h1 style="text-align: left;font-size: 30px;">History</h1>
+<div class="container" id="con1">
+
+	<ul class="sections">
+		<li class="section2 commonname" >
+			<a href="description.html" style="text-decoration:none">
+			<img src="../img/Description.jpg" >
+			 <p class="middle"> Description of Bharath</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="education.html" style="text-decoration:none">
+			<img src="../img/Education.jpg">
+			<p class="middle">Ancient Education system</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="civilisation.html" style="text-decoration:none">
+			<img src="../img/civilisation.jpg">
+			 <p class="middle">Ancient Civilsations</p>
+			</a>
+		</li>
+	</ul>
+</div>
+<h1 style="text-align: left;font-size: 30px;">Vedic Literature</h1>
+<div class="container" id="con2" >
+	 <ul class="sections">
+		<li class="section2 commonname">
+			<a href="Introduction.html" style="text-decoration:none">
+			<img src="../img/vedas1.jpg">
+			<p class="middle">Introduction</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="chaturvedas.html" style="text-decoration:none">
+			<img src="../img/vedas.png">
+			 <p class="middle">Chatur Vedas</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="Vedangas.html" style="text-decoration:none">
+			<img src="../img/Vedangas.jpg">
+			 <p class="middle">Vedangas</p>
+			</a>
+		</li>
+	</ul>
+</div>
+<h1 style="text-align: left;font-size: 30px;">Glorious Personalities</h1>
+<div class="container" id="con3">
+	 <ul class="sections">
+		<li class="section2 commonname">
+			<a href="sages.html" style="text-decoration:none">
+			<img src="../img/sages.jpg">
+			<p class="middle">Glorious sages</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="Shankaracharya.html" style="text-decoration:none">
+			<img src="../img/shankaracharyahome.jpg">
+			<p class="middle">Shankaracharya</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="Ramana.html" style="text-decoration:none">
+			<img src="../img/Ramanamaharshi.jpg">
+			<p class="middle">Ramana Maharshi</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="acarya.html" style="text-decoration:none">
+			<img src="../img/acarya.jpg">
+			 <p class="middle">Glorious Acharyas</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="kings.html" style="text-decoration:none">
+			<img src="../img/kings.jpg">
+			 <p class="middle">Glorious kings</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="scientists.html" style="text-decoration:none">
+			<img src="../img/scientists.jpg">
+			 <p class="middle">Glorious Scientists</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="poets.html" style="text-decoration:none">
+			<img src="../img/poets.jpg">
+			 <p class="middle">Glorious Poets</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="warriors.html" style="text-decoration:none">
+			<img src="../img/warriors.jpg">
+			 <p class="middle">Glorious Warriors</p>
+			</a>
+		</li>
+	</ul>
+</div>
+<h1 style="text-align: left;font-size: 30px;">Our Heritage</h1>
+<div class="container" id="con4">
+	 <ul class="sections">
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none">
+			<img src="../img/ayodhya.jpg">
+			<p class="middle">Temples</p>
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none">
+			<img src="../img/festivals.jpg">
+			 <p class="middle">festivals</p>
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none">
+			<img src="../img/sculptures.jpg">
+			 <p class="middle">Sculptures</p>
+			</a>
+		</li>
+		
+	</ul>
+</div>
+<h1 style="text-align: left;font-size: 30px;">Students Projects</h1>
+<div class="container" id="con5">
+	 <ul class="sections">
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none;height: 100%;">
+			<img src="../img/sem1.png" style="border-color: black;border-style: solid;border-width: 3px;height: 100%;">
+			
+		</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none;height: 100%;">
+			<img src="../img/sem2.png" style="border-color: black;border-style: solid;border-width: 3px;height: 100%;">
+			
+			</a>
+		</li>
+		<li class="section2 commonname">
+			<a href="#" style="text-decoration:none;height: 100%;">
+			<img src="../img/sem4.png" style="border-color: black;border-style: solid;border-width: 3px;height: 100%;">
+			 
+			</a>
+		</li>
+		<li class="section2 commonname" >
+			<a href="#" style="text-decoration:none; height: 100%;">
+			<img src="../img/sem3.png" style="border-color: black;border-style: solid;border-width: 3px;height: 100%;">
+			 
+			</a>
+		</li>
+	</ul>
+</div>
+</div>
+<div class="seperation6">
+	
+</div>
+<div style="display:flex;word-wrap: wrap;justify-content: space-around;">
+
+<div class="img1" id="logoamr"><img src="../img/amrita-vishwa-vidyapeetham.jpg" style="padding-bottom: 15px;width: 35%;"><br> Amrita Vishwa Vidhyapeetham<br><p></p>Chennai campus </div>
+
+<div class="footercontent" style="font-family: 'Merriweather', serif;text-align: left;" id="footcont">
+	<p style="text-align:center">Contact Us</p>
+	vg_shreehari@ch.amrita.edu<br><br>
+	knowyournationbharat@gmail.com<p></p>
+	<div style="text-align: center;">
+		Or
+	</div><p></p>
+	<div style="text-align:center">
+	<a href="comments.html" style="text-decoration:none;color: black;text-align: center;"> Comment Us </a></div>
+
+	<p></p>
+<!-- 	<div style="text-align:center">
+	<a href="comments.html" style="text-decoration:none;color: black;text-align: center;"> About Ourselves </a></div>
+</div> -->
+</div>
+
+
+</div>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/script.js">
+</script>
+
+</body>
+</html>
