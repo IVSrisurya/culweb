@@ -249,9 +249,11 @@ body{
 	align-items: center;
 	vertical-align: middle;
 	font-size: 1.3rem;
+	transition:width 0.5s;
 }
 #navlist a{
 	margin: auto;
+	transition:width 0.3s;
 }
 .seperation1{
 	width: 50%;
